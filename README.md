@@ -56,4 +56,4 @@ Unlike `@testing-library/svelte`, `vitest-browser-svelte` cleans up the componen
 
 ## Special thanks
 
-- Inspired by [`@testing-library/svelte`](https://github.com/testing-library/svelte-testing-library)
+- Forked from [`@testing-library/svelte`](https://github.com/testing-library/svelte-testing-library)
