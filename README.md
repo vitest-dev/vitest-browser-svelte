@@ -7,9 +7,12 @@ Requires `vitest` and `@vitest/browser` 2.1.0 or higher.
 ```tsx
 import { render } from 'vitest-browser-svelte'
 import { expect, test } from 'vitest'
+import Component from './Component.svelte'
 
 test('counter button increments the count', async () => {
-  const screen = render(<Component count={1} />)
+  const screen = render(Component, {
+    initialCount: 1,
+  })
 
   await screen.getByRole('button', { name: 'Increment' }).click()
 
@@ -38,9 +41,12 @@ export default defineConfig({
 
 ```tsx
 import { page } from '@vitest/browser/context'
+import Component from './Component.svelte'
 
 test('counter button increments the count', async () => {
-  const screen = page.render(<Component count={1} />)
+  const screen = page.render(Component, {
+    initialCount: 1,
+  })
 
   screen.cleanup()
 })
