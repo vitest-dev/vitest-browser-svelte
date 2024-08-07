@@ -1,6 +1,6 @@
 # vitest-browser-svelte
 
-Render React components in Vitest Browser Mode. This library follows `testing-library` principles and exposes only [locators](https://vitest.dev/guide/browser/locators) and utilities that encourage you to write tests that closely resemble how your React components are used.
+Render Svelte components in Vitest Browser Mode. This library follows `testing-library` principles and exposes only [locators](https://vitest.dev/guide/browser/locators) and utilities that encourage you to write tests that closely resemble how your Svelte components are used.
 
 Requires `vitest` and `@vitest/browser` 2.1.0 or higher.
 
