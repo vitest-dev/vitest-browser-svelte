@@ -34,9 +34,6 @@ jobs:
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
 
-      - name: Build
-        run: pnpm build
-
       - name: Publish to npm
         run: pnpm run publish-ci ${{ github.ref_name }}
         env:
