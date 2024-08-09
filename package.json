@@ -15,6 +15,12 @@
   "bugs": {
     "url": "https://github.com/vitest-dev/vitest-browser-svelte/issues"
   },
+  "keywords": [
+    "svelte",
+    "vitest",
+    "browser",
+    "testing"
+  ],
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
