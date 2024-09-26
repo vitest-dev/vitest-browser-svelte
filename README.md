@@ -36,7 +36,7 @@ export default defineConfig({
     // import `vitest-browser-svelte` manually so TypeScript can pick it up
     setupFiles: ['vitest-browser-svelte'],
     browser: {
-      browser: 'chromium',
+      name: 'chromium',
       enabled: true,
     },
   },
